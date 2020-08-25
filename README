@@ -1,0 +1,13 @@
+文件目录结构；
+|- src
+| | - python3
+| | | - mapping.xlsx (第一列 js文件路径，第二列 对比excel路径，第三列 需要对比的excel列名)
+| | | - requirementes.txt( 脚本用的python3包的依赖，pip3 install -r requirements.tx)
+| | | - compare_js_excel.py( main函数,执行python3 compare_js_excel.py会加载mapping.xlsx里的每一行参数进行对比)
+
+注意事项：
+
+1. 对比文件结果会按照运行程序时间戳生成在python3目录下。
+2. 需要保证mapping.xlsx文件填写正确。
+3. 需要保证js文件存在{}合法的json结果，里面有// /* */等注释程序会自动删除。
+4. python3.7以上环境即可运行。
