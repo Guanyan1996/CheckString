@@ -4,7 +4,7 @@
  @Time    : 2020/8/25 15:15
  @Author  : yguan
  @Site    : 
- @File    : check_result.py
+ @File    : compare_js_excel.py
  @Software: PyCharm
 """
 import json
